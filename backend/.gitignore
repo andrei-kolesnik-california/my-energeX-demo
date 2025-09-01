@@ -17,10 +17,6 @@ media/
 staticfiles/
 *.log
 
-# Migrations (если хочешь их не коммитить на старте)
-*/migrations/__pycache__/
-*/migrations/*.py
-
 # IDE / editor
 .vscode/
 .idea/

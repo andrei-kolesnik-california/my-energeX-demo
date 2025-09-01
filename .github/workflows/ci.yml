@@ -33,7 +33,7 @@ jobs:
       - name: Start db & redis (detached)
         run: |
           docker compose up -d db redis
-          # ждём Postgres
+          # wait Postgres
           for i in {1..40}; do
             docker compose exec -T db pg_isready -U app && break
             sleep 2
