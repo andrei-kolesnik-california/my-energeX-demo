@@ -1,0 +1,28 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+*.env
+.env.*.local
+
+# Django stuff
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Migrations (если хочешь их не коммитить на старте)
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
