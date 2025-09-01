@@ -38,8 +38,6 @@ docker compose up --build
 # Frontend http://localhost:3000
 ```
 
-Create a user via `/api/register`, login via `/api/login`, then use the token in the `Authorization: Bearer <token>` header.
-
 ## Tests
 
 ### Docker (recommended)
@@ -55,4 +53,4 @@ docker compose run --rm testing
 - Replaced MySQL with PostgreSQL; can swap via env/engine.
 - Redis is a separate container (best practice). One Redis per environment with key prefixes.
 - Security: passwords hashed, JWT with expiry, CORS enabled for demo.
-- Bonus-ready: RBAC, GraphQL, WebSockets if needed.
+- Planned extensions: RBAC, GraphQL, WebSockets.
