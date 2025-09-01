@@ -1,5 +1,13 @@
 # EnergeX AI — Python/DRF + PostgreSQL + Redis + React
 
+[![CI](https://github.com/andrei-kolesnik-california/my-energeX-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/andrei-kolesnik-california/my-energeX-demo/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![Django REST](https://img.shields.io/badge/Django-REST-ff1709?logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
+![React](https://img.shields.io/badge/React-Vite-61DAFB?logo=react&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+
 Daniel confirmed I can use any stack, so I built this in Django REST Framework + PostgreSQL + Redis + React.
 It preserves the original endpoints and caching semantics.
 
@@ -41,6 +49,7 @@ Runs tests fully inside containers (same network as `db` and `redis`):
 # One-off test run
 docker compose build testing
 docker compose run --rm testing
+```
 
 ## Notes
 - Replaced MySQL with PostgreSQL; can swap via env/engine.
